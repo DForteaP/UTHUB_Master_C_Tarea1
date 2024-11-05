@@ -12,9 +12,73 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1b252f5-d8b6-40c3-b2f8-cdc36cc6b68e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/Tarea1ModuleRules/obj/project.packagespec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/Tarea1ModuleRules/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/Tarea1ModuleRules/obj/rider.project.restore.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/MyATeleporter.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/J5/8HKXWJ74KH0BMG1NS53HE8.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/U0/3KTA7RIHMMQTV109BQI8S5.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/Tarea1ModuleRules/obj/Development/Tarea1ModuleRules.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/Tarea1/UHT/ATeleporter.gen.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/Tarea1/UHT/ATeleporter.generated.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/Tarea1/ATeleporter.cpp.dep.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/Tarea1/ATeleporter.cpp.obj.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/Tarea1/ATeleporter.gen.cpp.dep.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/x64/UnrealEditor/Development/Tarea1/ATeleporter.gen.cpp.obj.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-008BB940493643E9EACD97ABCD802E01/CrashReportClient.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-5E433241448C25575BD1999CE2B28B0E/CrashReportClient.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-7BDDA1354C2230BF00E4668874BCAF0E/CrashReportClient.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-8485552347798514EF4AC9B7A6794539/CrashReportClient.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-A13E285D4B1C678924B9B4BEAC640FC5/CrashReportClient.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-C2CBBECA4179940ACC27519F6D833B28/CrashReportClient.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-D0C2137348316BA79F1E5F81D10BE075/CrashReportClient.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-E571ABBC48DF173BF42B45B1E9C77871/CrashReportClient.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-F09397E9436C578D5726599F3ECB931C/CrashReportClient.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Config/WorldState/2959576711.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-5E433241448C25575BD1999CE2B28B0E_0000/CrashContext.runtime-xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-5E433241448C25575BD1999CE2B28B0E_0000/CrashReportClient.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-5E433241448C25575BD1999CE2B28B0E_0000/Tarea1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-5E433241448C25575BD1999CE2B28B0E_0000/UEMinidump.dmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-A13E285D4B1C678924B9B4BEAC640FC5_0000/CrashContext.runtime-xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-A13E285D4B1C678924B9B4BEAC640FC5_0000/CrashReportClient.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-A13E285D4B1C678924B9B4BEAC640FC5_0000/Tarea1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-A13E285D4B1C678924B9B4BEAC640FC5_0000/UEMinidump.dmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-C2CBBECA4179940ACC27519F6D833B28_0000/CrashContext.runtime-xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-C2CBBECA4179940ACC27519F6D833B28_0000/CrashReportClient.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-C2CBBECA4179940ACC27519F6D833B28_0000/Tarea1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-C2CBBECA4179940ACC27519F6D833B28_0000/UEMinidump.dmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-E571ABBC48DF173BF42B45B1E9C77871_0000/CrashContext.runtime-xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-E571ABBC48DF173BF42B45B1E9C77871_0000/CrashReportClient.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-E571ABBC48DF173BF42B45B1E9C77871_0000/Tarea1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-E571ABBC48DF173BF42B45B1E9C77871_0000/UEMinidump.dmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Logs/Tarea1-backup-2024.11.05-16.38.54.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Logs/Tarea1-backup-2024.11.05-16.51.08.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Logs/Tarea1-backup-2024.11.05-17.15.32.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Logs/Tarea1-backup-2024.11.05-17.53.12.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Logs/Tarea1-backup-2024.11.05-17.56.14.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Logs/Tarea1-backup-2024.11.05-18.01.08.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Logs/Tarea1-backup-2024.11.05-18.08.04.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Logs/Tarea1-backup-2024.11.05-18.15.38.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Logs/Tarea1-backup-2024.11.05-18.32.48.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_ThirdPersonMap-000003c8-2024-11-05T19.30.51.702Z.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_ThirdPersonMap-000003c8-2024-11-05T19.31.02.977Z.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_ThirdPersonMap-00001274-2024-11-05T19.03.43.397Z.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_ThirdPersonMap-00001274-2024-11-05T19.05.05.154Z.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_ThirdPersonMap-00002c50-2024-11-05T18.54.55.285Z.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_ThirdPersonMap-00002e40-2024-11-05T18.46.19.183Z.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_ThirdPersonMap-00002e40-2024-11-05T18.47.35.793Z.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_ThirdPersonMap-00002e40-2024-11-05T18.48.34.319Z.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_ThirdPersonMap-00002e40-2024-11-05T18.49.41.455Z.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_ThirdPersonMap-00002e40-2024-11-05T18.49.51.920Z.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_ThirdPersonMap-00002e40-2024-11-05T18.51.02.228Z.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_ThirdPersonMap-000039bc-2024-11-05T18.58.42.829Z.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_ThirdPersonMap-000039bc-2024-11-05T18.59.31.147Z.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_ThirdPersonMap-00003e28-2024-11-05T19.47.56.653Z.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_ThirdPersonMap-00004a10-2024-11-05T17.37.12.319Z.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Logs/WorldPartition/StreamingGeneration-PIE_ThirdPersonMap-0000577c-2024-11-05T19.15.08.828Z.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/SourceControl/UncontrolledChangelists.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Tarea1/Private/ATeleporter.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Tarea1/Public/ATeleporter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Tarea1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tarea1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binaries/Win64/UnrealEditor-Tarea1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Win64/UnrealEditor-Tarea1.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,22 +88,48 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="cidr-memory-view://3" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="Toolset" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2oQuWpXkvRM67d1dLJPUJAgT4OW" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "C++ Project.Tarea1.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -47,9 +137,16 @@
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\usuario\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache",
+      "C:\\Users\\usuario\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache",
+      "C:\\Users\\usuario\\AppData\\Local\\Symbols\\src"
+    ]
   }
 }]]></component>
-  <component name="RunManager" selected=".NET Project.AutomationTool">
+  <component name="RunManager" selected="C++ Project.Tarea1">
     <configuration name="Tarea1" type="CppProject" factoryName="C++ Project">
       <configuration_1>
         <option name="CONFIGURATION" value="Development Editor" />
@@ -485,6 +582,7 @@
       <option name="presentableId" value="Default" />
       <updated>1730814156128</updated>
       <workItem from="1730814156902" duration="480000" />
+      <workItem from="1730823088712" duration="9901000" />
     </task>
     <servers />
   </component>
@@ -493,6 +591,7 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
 </project>

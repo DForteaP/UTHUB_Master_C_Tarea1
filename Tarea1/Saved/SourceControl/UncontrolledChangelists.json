@@ -1,0 +1,16 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"E:/UT-HUB/Master/C++/Tarea1/UTHUB_Master_C_Tarea1/Tarea1/Content/ThirdPerson/Blueprints/MyATeleporter.uasset",
+				"E:/UT-HUB/Master/C++/Tarea1/UTHUB_Master_C_Tarea1/Tarea1/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/JO/5D4G2DQ2TSL358XXVQZML7.uasset",
+				"E:/UT-HUB/Master/C++/Tarea1/UTHUB_Master_C_Tarea1/Tarea1/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/40/PDN3Z7HU2GG3D74WB7793K.uasset",
+				"E:/UT-HUB/Master/C++/Tarea1/UTHUB_Master_C_Tarea1/Tarea1/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/U0/3KTA7RIHMMQTV109BQI8S5.uasset",
+				"E:/UT-HUB/Master/C++/Tarea1/UTHUB_Master_C_Tarea1/Tarea1/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/J5/8HKXWJ74KH0BMG1NS53HE8.uasset"
+			]
+		}
+	]
+}
