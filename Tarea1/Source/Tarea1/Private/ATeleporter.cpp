@@ -1,5 +1,7 @@
 ﻿#include "Tarea1/Public/ATeleporter.h"
 #include "Components/BoxComponent.h"
+#include "GameFramework/Character.h"
+#include "Kismet/GameplayStatics.h"
 
 AATeleporter::AATeleporter()
 {
@@ -26,9 +28,44 @@ void AATeleporter::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* O
 	if (bIsTeleporting) return;
 	if (DestinationTeleporter && OtherActor && OtherActor->IsA(ActorTypeToTeleport))
 	{
+		APlayerController* PlayerController = UGameplayStatics::GetPlayerController(this, 0);
+		APlayerCameraManager* CameraManager = nullptr;
+		
+		if (PlayerController)
+		{
+			CameraManager = PlayerController->PlayerCameraManager;
+			// DESACTIVA MOVIMIENTO MIENTRAS SE TELETRANSPORTA
+			ACharacter* Character = Cast<ACharacter>(OtherActor);
+			if (Character)
+			{
+				Character->DisableInput(PlayerController);
+			}
+			if (CameraManager)
+			{
+				CameraManager->StartCameraFade(0.0f, 1.0f, 1.0f, FLinearColor::Black, true, true);
+			}
+		}
 		DestinationTeleporter->bIsTeleporting = true;
-		FVector DestinationLocation = DestinationTeleporter->GetActorLocation();
-		OtherActor->SetActorLocation(DestinationLocation);
+
+		//TIMER PARA CONTROLAR EL FADE
+		FTimerHandle TeleportTimer;
+		GetWorld()->GetTimerManager().SetTimer(TeleportTimer, [this, OtherActor, CameraManager, PlayerController]()
+		{
+			FVector DestinationLocation = DestinationTeleporter->GetActorLocation();
+			OtherActor->SetActorLocation(DestinationLocation);
+			if (CameraManager)
+			{
+				CameraManager->StartCameraFade(1.0f, 0.0f, 1.0f, FLinearColor::Black, true, true);
+			}
+			// DEVUELVE MOVIMIENTO MIENTRAS TRAS TELETRANSPORTARSE
+			ACharacter* Character = Cast<ACharacter>(OtherActor);
+			if (Character)
+			{
+				Character->EnableInput(PlayerController);
+			}
+		}, 1.0f, false);
+
+	
 	}
 }
 

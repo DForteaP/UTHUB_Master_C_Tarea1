@@ -1,6 +1,4 @@
-﻿// Fill out your copyright notice in the Description page of Project Settings.
-
-#pragma once
+﻿#pragma once
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
@@ -33,7 +31,7 @@ public:
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Teleporter")
 	TSubclassOf<AActor> ActorTypeToTeleport;
-
+	
 	//EVENTOS DE CONTROL DE COLISION
 	UFUNCTION()
 	void OnOverlapBegin(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
