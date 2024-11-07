@@ -1,6 +1,7 @@
 ﻿#pragma once
 
 #include "CoreMinimal.h"
+#include "NiagaraSystem.h"
 #include "GameFramework/Actor.h"
 #include "ATeleporter.generated.h"
 
@@ -31,6 +32,9 @@ public:
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Teleporter")
 	TSubclassOf<AActor> ActorTypeToTeleport;
+
+	UPROPERTY(EditAnywhere, Category = "Effects")
+	UNiagaraSystem* TeleportEffect;
 	
 	//EVENTOS DE CONTROL DE COLISION
 	UFUNCTION()

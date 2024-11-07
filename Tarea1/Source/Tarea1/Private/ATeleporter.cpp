@@ -1,7 +1,9 @@
 ﻿#include "Tarea1/Public/ATeleporter.h"
+#include "NiagaraFunctionLibrary.h"
 #include "Components/BoxComponent.h"
 #include "GameFramework/Character.h"
 #include "Kismet/GameplayStatics.h"
+
 
 AATeleporter::AATeleporter()
 {
@@ -28,6 +30,12 @@ void AATeleporter::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* O
 	if (bIsTeleporting) return;
 	if (DestinationTeleporter && OtherActor && OtherActor->IsA(ActorTypeToTeleport))
 	{
+		// EFECTO DE PARTICULAS DE ORIGEN
+		if (TeleportEffect)
+		{
+			UNiagaraFunctionLibrary::SpawnSystemAtLocation(GetWorld(), TeleportEffect, GetActorLocation(), GetActorRotation());
+		}
+		
 		APlayerController* PlayerController = UGameplayStatics::GetPlayerController(this, 0);
 		APlayerCameraManager* CameraManager = nullptr;
 		
@@ -53,6 +61,13 @@ void AATeleporter::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* O
 		{
 			FVector DestinationLocation = DestinationTeleporter->GetActorLocation();
 			OtherActor->SetActorLocation(DestinationLocation);
+
+			// EFECTO DE PARTICULAS DE ORIGEN
+			if (TeleportEffect)
+			{
+				UNiagaraFunctionLibrary::SpawnSystemAtLocation(GetWorld(), TeleportEffect, DestinationLocation, GetActorRotation());
+			}
+			
 			if (CameraManager)
 			{
 				CameraManager->StartCameraFade(1.0f, 0.0f, 1.0f, FLinearColor::Black, true, true);
